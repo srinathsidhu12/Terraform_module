@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "mybucket"
-    key    = "${var.environment}/terraform.tfstate"
+    bucket = "terraform-statefile-bucket321"
     region = "ap-south-1"
+    key    = "terraform.tfstate"
     use_lockfile = true
   }
 }

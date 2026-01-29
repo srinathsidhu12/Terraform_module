@@ -1,0 +1,8 @@
+environment        = "prod"
+vpc_cidr           = "10.1.0.0/16"
+public_subnet_cidr = "10.1.1.0/24"
+private_subnet_cidr= "10.1.2.0/24"
+ami                = "ami-0abcd1234ef567890"
+instance_type      = "t3.micro"
+instance_tag       = "prod_instance"
+region             = "t2.micro"
